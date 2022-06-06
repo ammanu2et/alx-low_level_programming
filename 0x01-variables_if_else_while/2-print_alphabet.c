@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /*
- *All lower alphabets print
+ *main - Entry point
  *
- *all out put correct
+ *Return: Always 0 (correct)
  */
 
 int main(void)
@@ -14,5 +14,5 @@ for (ch = 'a'; ch <= 'z'; ch++)
 
 putchar (ch);
 putchar ('\n');
-return(0);
+return (0);
 }
