@@ -19,13 +19,13 @@ for (l = 0; l <= 9; l++)
 {
 putchar((i % 10) + '0');
 putchar((j % 10) + '0');
+putchar(' ');
 putchar((k % 10) + '0');
 putchar((l % 10) + '0');
 
 if (i == 9 && j == 9 && k == 9 && l == 9)
 continue;
 
-putchar(' ');
 putchar(',');
 putchar(' ');
 }
