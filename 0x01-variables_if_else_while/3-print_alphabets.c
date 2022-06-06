@@ -7,12 +7,14 @@
 int main(void)
 
 {
-char alphabet;
+char lowercase;
+char uppercase;
 
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
+for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
+for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
 {
-putchar(alphabet);
+putchar(lowercase);
+putchar(uppercase);
 }
 
 putchar('\n');
