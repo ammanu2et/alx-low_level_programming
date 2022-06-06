@@ -15,7 +15,7 @@ for (j = 0; j <= 9; j++)
 {
 for (k = 0; k <= 9; k++)
 {
-for (l = 0; l <= 9; l++)
+for (l = k + 1; l <= 9; l++)
 {
 putchar((i % 10) + '0');
 putchar((j % 10) + '0');
