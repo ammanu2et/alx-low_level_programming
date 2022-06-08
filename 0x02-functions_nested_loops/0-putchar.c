@@ -12,8 +12,8 @@ int i;
 
 for (i = 0; i <= 7; i++)
 {
-_putchar(c[i]);
+putchar(c[i]);
 }
-_putchar('\n');
+putchar('\n');
 return (0);
 }
