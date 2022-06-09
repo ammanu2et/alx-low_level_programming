@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *isalpha - check if character is an alphabet character
-  *@c: type int character
-  *Return: (1) if alphabet is, (0) if other
+ *_islower - check if character is an alphabet character
+ *@c: type int character
+ *Return: (1) if alphabet is, (0) if other
  */
 int _islower(int c)
 {
