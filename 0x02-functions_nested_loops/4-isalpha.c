@@ -2,8 +2,8 @@
 /**
  *_isalpha - check if character is an alphabet character
  *@c: type int character
- *return(1) if alphabet is lowercase or uppercase
- *return(0) if alphabet is other
+ *Return: (1) if alphabet is lowercase or uppercase
+ *Return: (0) if alphabet is other
  */
 int _isalpha(int c)
 {
