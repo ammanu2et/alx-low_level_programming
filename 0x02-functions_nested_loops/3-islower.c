@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- *main = function
+ *main = main.h function
+ *_islower = function returns alphabet c
+ *int c = the call function
  *return 1 if its true
  *return 0 not
  */
