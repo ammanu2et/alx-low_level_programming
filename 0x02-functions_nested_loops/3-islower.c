@@ -7,6 +7,10 @@
  *return 0 not
  */
 int _islower(int c)
+
+/*_islower = function returns alphabet c
+ *int c = the call function
+ */
 {
 if ((c >= 97 && c <= 122))
 return (1);
