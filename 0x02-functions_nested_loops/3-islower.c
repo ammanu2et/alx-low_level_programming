@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- *main = main.h function
- *_islower function
- *int c = the call function
- *return 1 if its true
- *return 0 not
+ *isalpha - check if character is an alphabet character
+  *@c: type int character
+  *Return: (1) if alphabet is, (0) if other
  */
 int _islower(int c)
 {
