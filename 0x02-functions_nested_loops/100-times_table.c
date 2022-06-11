@@ -27,7 +27,7 @@ void print_times_table(int n)
             		_putchar(d / 10 + '0');
             		_putchar(d % 10 + '0');
             	}
-            else if (y != 0)
+            else if (j != 0)
             	{
             		_putchar(' ');
             		_putchar(' ');
@@ -36,7 +36,7 @@ void print_times_table(int n)
             else
             		_putchar(d + '0');
 
-            	if (y != n)
+            	if (j != n)
             		{
             		    _putchar(',');
             			_putchar(' ');
