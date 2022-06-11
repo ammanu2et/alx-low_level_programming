@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- *
+ * @i: is an integer and we will add the multiples of 3 and 5 in i.
+ * Return: correct
  */
-int main()
+int main(void)
 {
 int i, sum = 0;
 for (i = 0; i < 1024; i++)
@@ -14,5 +15,5 @@ sum = sum + i;
 }
 printf("%d\n", sum);
 getchar();
-return 0;
+return (0);
 }
