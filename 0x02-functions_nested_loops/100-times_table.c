@@ -16,9 +16,10 @@ void print_times_table(int n)
             printf("%d", d);
             if(j != n)
             printf(",   ");
+          }
         else(n > 15 || n < 0)
         break;
-          }
+
    	  }
         printf("\n");
 }
