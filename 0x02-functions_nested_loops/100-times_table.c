@@ -6,7 +6,7 @@
  */
 void print_times_table(int n)
 {
-      int j,i,d,e;
+      int j,i,d;
 
       for(i = 0; i <= n; i++)
       {
@@ -15,9 +15,8 @@ void print_times_table(int n)
           if(n > 15 || n < 0)
             return;
             else
-            d = i * j;
-            e = d / 10;
-            printf("%d", e % 10);
+            d = i * j
+            printf("%d", d % 10);
             if(j != n)
             printf(",   ");
           }
