@@ -13,7 +13,7 @@ void print_times_table(int n)
         for(j = 0; j <= n; j++)
           {
           if(n > 15 || n < 0)
-            break;
+            return;
             else
             d = i * j;
             printf("%d", d);
