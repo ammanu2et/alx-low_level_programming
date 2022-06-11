@@ -15,7 +15,7 @@ void print_times_table(int n)
           if(n > 15 || n < 0)
             return;
             else
-            d = i * j
+            d = i * j;
             printf("%d", d % 10);
             if(j != n)
             printf(",   ");
