@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * main - check the code.
  *
@@ -11,8 +10,8 @@ int n, i;
 for (i = 0; i <= 15; ++i)
 {
 
-    printf("%d * %d = %d\n", n, i, n * i);
-    printf('\n');
+    _putchar("%d * %d = %d\n", n, i, n * i);
+    _putchar('\n');
 }
     return (0);
 }
