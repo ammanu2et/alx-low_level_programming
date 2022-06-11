@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * @i: is an integer and we will add the multiples of 3 and 5 in i.
- * Return: correct
+ * @i - is an integer and we will add the multiples of 3 and 5 in i.
+ * main: is a standard io function.
+ * Return success
  */
 int main(void)
 {
