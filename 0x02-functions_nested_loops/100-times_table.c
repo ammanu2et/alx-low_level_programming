@@ -14,9 +14,9 @@ void print_times_table(int n)
           if (n > 15 || n < 0)
               printf(" ");
              else
-   	    printf("%d, ",i*j);
+   	    _putchar("%d, ",i*j);
 
          }
-        printf("\n");
+        _putchar("\n");
        }
 }
