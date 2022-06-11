@@ -1,17 +1,20 @@
 #include "main.h"
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * times_table - Prints the 9 times table, starting with 0
+ * Return: empty output
  */
-int main(void)
 {
-int n, i;
-for (i = 0; i <= 15; ++i)
-{
+      int j,i,n;
+      for(i=0;i<=n;i++)
+      {
+        for(j=0;j<=n;j++)
+        {
+          if (n > 15 || n < 0)
+              printf(" ");
+             else
+   	    printf("%d, ",i*j);
 
-    _putchar("%d * %d = %d\n", n, i, n * i);
-    _putchar('\n');
-}
-    return (0);
+         }
+        printf("\n");
+       }
 }
