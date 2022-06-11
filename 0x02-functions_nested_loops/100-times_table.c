@@ -7,12 +7,12 @@
  */
 void print_times_table(int n)
 {
-int j,i,d;
-if(n > 15 || n < 0)
+int j, i, d;
+if (n > 15 || n < 0)
 return;
-for(i = 0; i <= n; i++)
+for (i = 0; i <= n; i++)
 {
-for(j = 0; j <= n; j++)
+for (j = 0; j <= n; j++)
 {
 
 d = i * j;
