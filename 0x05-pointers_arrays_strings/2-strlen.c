@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strlen - counts the string.
+ * _strlen: counts the string.
  * @s: the string
  * return: correct
  */
