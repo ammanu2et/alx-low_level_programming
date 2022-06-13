@@ -7,5 +7,5 @@
  */
 int _strlen(char *s)
 {
-int strlen(char *s)
+int strlen(const char *s);
 }
