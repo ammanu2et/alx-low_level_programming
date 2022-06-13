@@ -2,8 +2,8 @@
 #include <string.h>
 #include <stdio.h>
 /**
- * _puts - prints a string.
- * @str: a pointer to an int
+ * print_rev - prints a reversed string.
+ * @s: a string to be reversed
  * Return: void and correct
  */
 void print_rev(char *s)
