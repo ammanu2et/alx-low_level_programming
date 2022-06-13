@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
  * swap_int - swaps two integers.
- * @n: the variable that helps the swap.
  * @a: first variable.
  * @b: second variable.
  */
