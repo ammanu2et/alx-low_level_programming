@@ -13,7 +13,7 @@ int x;
 c = str;
 for (x = 0; c[x]; x++)
 {
-_puts (c[x]);
+puts (c[x]);
 }
-_puts ('\n');
+puts ('\n');
 }
