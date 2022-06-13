@@ -6,11 +6,10 @@
  */
 void reset_to_98(int *n)
 {
-int n;
+    int b = 0,
 
-n = 402;
-printf ("n = %d\n", n);
-reset_to_98(&n);
-printf ("n = %d\n", n);
+printf ("n : %d\n", &b);
+reset_to_98(&b);
+printf ("n : %d\n", b);
 return (0);
 }
