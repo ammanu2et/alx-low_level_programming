@@ -8,15 +8,14 @@
  */
 void rev_string(char *s)
 {
-int a;
+int a, i;
 a = 0;
 while (s[a] != '\0')
 {
 a++;
 }
-for (a = a - 1; a >= 0; a--)
+for (i = 0; i < a/2; i++)
 {
-putchar (s[a]);
+putchar (s[i]);
 }
-putchar ('\n');
 }
