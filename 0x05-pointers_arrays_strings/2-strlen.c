@@ -1,11 +1,17 @@
 #include "main.h"
 #include <string.h>
 /**
- * swap_int - swaps two integers.
- * @a: first variable.
- * @b: second variable.
+ * _strlen - counts the string.
+ *
+ * return: correct
  */
 int _strlen(char *s)
 {
-size_t strlen(const char s);
+int i;
+i = 0;
+while (s[i] != '\0')
+{
+i++;
+}
+return (i);
 }
