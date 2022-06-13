@@ -11,7 +11,7 @@ void print_rev(char *s)
 if (*s)
 {
 print_rev(s+1);
-putchar ("%c", *s);
+printf ("%c", *s);
 }
-putchar ('\n');
+printf ('\n');
 }
