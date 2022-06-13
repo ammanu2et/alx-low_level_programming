@@ -2,7 +2,7 @@
 #include <string.h>
 /**
  * _strlen - counts the string.
- *
+ * @s: the string
  * return: correct
  */
 int _strlen(char *s)
