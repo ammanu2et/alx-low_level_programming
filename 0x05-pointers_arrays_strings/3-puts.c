@@ -11,9 +11,10 @@ char *c;
 int x;
 
 c = str;
+
 for (x = 0; c[x]; x++)
 {
-puts (c[x]);
+_putchar (c[x]);
 }
-puts ('\n');
+_putchar('\n');
 }
