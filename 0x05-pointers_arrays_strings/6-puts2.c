@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  *puts2 - print every character of a string
  *@str: A pointer to an int that will be changed
