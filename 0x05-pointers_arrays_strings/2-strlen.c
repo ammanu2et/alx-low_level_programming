@@ -5,7 +5,7 @@
  * @a: first variable.
  * @b: second variable.
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
 int strlen(char *s)
 }
