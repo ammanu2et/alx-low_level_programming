@@ -7,11 +7,6 @@
  */
 void _puts(char *str)
 {
-for ( char *str = string + 6; *str != '\0'; str++)
-{
-if (*str == '\n')
-break;
+while (*str = getchar(), *str >= 0)
 putchar(*str);
-}
-return (i);
 }
