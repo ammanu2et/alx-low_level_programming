@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 /**
- * print_rev - prints a reversed string.
+ * rev_string - prints a reversed string.
  * @s: a string to be reversed
  * Return: void and correct
  */
@@ -24,7 +24,7 @@ for (a = 0; a < i - 1; a++)
 end++;
 }
 
-for (a = 0; a < i/2; a++)
+for (a = 0; a < i / 2; a++)
 {
 temp = *end;
 *end = *start;
