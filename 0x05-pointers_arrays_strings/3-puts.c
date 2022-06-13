@@ -2,17 +2,15 @@
 #include <string.h>
 #include <stdio.h>
 /**
- *  - length of a string.
- * @s: a pointer to an int
+ * _puts - prints a string.
+ * @str: a pointer to an int
  * Return: void and correct
  */
 void _puts(char *str)
 {
 char *c;
 int x;
-
 c = str;
-
 for (x = 0; c[x]; x++)
 {
 putchar (c[x]);
