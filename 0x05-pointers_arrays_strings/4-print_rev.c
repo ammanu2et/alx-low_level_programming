@@ -10,7 +10,7 @@ void print_rev(char *s)
 {
 if (*s)
 {
-reverse (s + 1);
+print_rev(s+1);
 putchar ("%c", *s);
 }
 putchar ('\n');
