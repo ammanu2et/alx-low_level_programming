@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 /**
  *  - length of a string.
  * @s: a pointer to an int
