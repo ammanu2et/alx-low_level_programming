@@ -17,7 +17,7 @@ a++;
 for (i = 0; i < a/2; a++)
 {
 temp = s[i];
-s[i] = s[s -i -1];
+s[i] = s[a -i -1];
 s[a - i - 1] = temp;
 }
 putchar (s[a]);
