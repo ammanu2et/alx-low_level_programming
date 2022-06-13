@@ -7,15 +7,11 @@
  */
 void _puts(char *str)
 {
-int len = strlen(str) + 1;
-char *temp alloca(len);
-int i;
-for (i = 0; i < len; i++)
+for ( char *str = string + 6; *str != '\0'; str++)
 {
-char ch = str[i];
-if (ch == '\n')
+if (*str == '\n')
 break;
-temp[i] = ch;
+putchar(*str);
 }
 return (i);
 }
