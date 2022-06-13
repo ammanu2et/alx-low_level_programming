@@ -12,6 +12,4 @@ int i;
 
 for (i = 0; str[i] != '\0'; ++1);
 
-printf("%d", i);
-return 0;
 }
