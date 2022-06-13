@@ -2,7 +2,9 @@
 #include <stdio.h>
 /**
  * swap_int - swaps two integers.
- * @: the variable that's going to be changed.
+ * @n: the variable that helps the swap.
+ * @a: first variable.
+ * @b: second variable.
  */
 void swap_int(int *a, int *b)
 {
