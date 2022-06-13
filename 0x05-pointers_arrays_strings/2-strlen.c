@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <string.h>
 /**
  * swap_int - swaps two integers.
  * @a: first variable.
@@ -7,5 +7,6 @@
  */
 int _strlen(char *s)
 {
-int strlen(const char *s);
+size_t
+strlen(const char *s);
 }
