@@ -17,6 +17,5 @@ if (ch == '\n')
 break;
 temp[i] = ch;
 }
-temp[i] = 0;
-puts(temp);
+return (i);
 }
