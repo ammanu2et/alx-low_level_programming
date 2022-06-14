@@ -7,7 +7,8 @@
  */
 int _atoi(char *s)
 {
-int i = 0, sign = 1, base = 0;
+unsigned int i = 0, base = 0;
+int sign = 1;
 while (s[i] == ' ')
 {
 i++;
