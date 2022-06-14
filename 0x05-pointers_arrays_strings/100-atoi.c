@@ -23,7 +23,7 @@ return INT_MAX;
 else
 return INT_MIN;
 }
-base = (s[i] - 48) + number * 10;
+base = (s[i] - 48) + base * 10;
 }
 return (base *sign);
 }
