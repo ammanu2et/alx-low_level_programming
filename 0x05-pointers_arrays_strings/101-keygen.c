@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-void 101-crackme(int n)
+void randompasswordgeneration(int n)
 {
 int i = 0;
 int randomizer = 0;
