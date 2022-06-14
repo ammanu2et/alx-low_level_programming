@@ -17,16 +17,12 @@ if (s[0] == '-')
 sign = -1 ;
 i++;
 }
-while (s[i] >= '0' && s[i] <= '9')
+
+for (; str[i] != '\0'; ++i)
 {
-if (base > INT_MAX / 10 || (base == INT_MAX / 10 && s[i] - '0' > 7))
-{
-if (sign == 1)
-return INT_MAX;
-else
-return INT_MIN;
-}
-base = 10 * base + (s[i++] - '0');
+if (s[i] <= '0' || s[i] >= '9')
+return 0;
+base = base*10 + s[i] - '0';
 }
 return base * sign;
 }
