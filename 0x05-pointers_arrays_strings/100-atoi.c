@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <limits.h>
 /**
  *
  */
@@ -14,7 +14,7 @@ i++;
 }
 if (s[i] == '-' || s[i] == '+')
 {
-sign = 1 - 2 * s[i++] == '-');
+sign = 1 - 2 * s[i++] == '-')
 }
 while (s[i] >= '0' && s[i] <= '9')
 {
