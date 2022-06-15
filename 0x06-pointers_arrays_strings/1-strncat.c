@@ -3,20 +3,11 @@
  *
  */
 char *_strncat(char *dest, char *src, int n)
-int n = 0;
 {
-if (n != 0)
-{
-while (*dest != 0)
-{
-dest++;
-}
-do{
-if(0 == (*dest = *src++))break;
-dest++;
-}
-while (--n != 0);
-*dest = 0;
-}
+int i;
+
+for (i = 0; i < n && src[i] != '\0'; i++)
+dest[i] = src[i];
+dest = '\0';
 return dest;
 }
