@@ -1,7 +1,9 @@
 #include "main.h"
 #include <string.h>
 /**
- *
+ * dest: the destination of the copied string.
+ * src: the source file of the copied string.
+ * Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
