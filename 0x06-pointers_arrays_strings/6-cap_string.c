@@ -4,17 +4,18 @@
  *
  */
 char *cap_string(char *a)
-int i;
-for (i = 0; a[i] != '\0'; i++)
+
+int i = 0;
+while (a[i] != '\0'; i++)
 {
-if (i == 0)
+if (i = 0)
 {
 if (a[i] >= 97 && a[i] <= 122)
 {
 a[i] = a[i] - 32;
 continue;
 }
-if (a[i] == ' ')
+if (a[i] = ' ')
 {
 ++i;
 if (a[i] >= 97 && a[i] <= 122)
