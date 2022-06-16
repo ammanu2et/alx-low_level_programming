@@ -1,7 +1,9 @@
 #include "main.h"
 #include <string.h>
 /**
+ * _strcat - appends a copy of one string to another.
  *
+ * Return: returns the string of destination file.
  */
 char *_strcat(char *dest, char *src)
 {
