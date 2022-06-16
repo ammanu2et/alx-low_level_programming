@@ -3,13 +3,16 @@
  *
  */
 void reverse_array(int *a, int n)
-int temp, low, high;
 {
-for (int low = 0, high = n - 1; low < high; low++, high--)
+int *p;
+
+for (int i = 0; i < n; i++)
 {
-int temp = arr[low];
-arr[low] = arr[high];
-arr[high] = temp;
+p[n - 1 - i] = a[i];
 }
-return temp;
+for (int i = 0; i < n; i++)
+{
+a[i] = p[i];
+}
+return (0);
 }
