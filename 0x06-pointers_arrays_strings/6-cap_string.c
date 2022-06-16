@@ -1,12 +1,13 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 /**
  *
  */
 char *cap_string(char *n)
 
 int i = 0;
-while (a[i] != '\0'; i++)
+while (a[i] != '\0')
 {
 if (i == 0)
 {
