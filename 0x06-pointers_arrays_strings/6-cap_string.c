@@ -3,31 +3,31 @@
 /**
  *
  */
-char *cap_string(char *a)
+char *cap_string(char *n)
 
 int i = 0;
 while (a[i] != '\0'; i++)
 {
-if (i = 0)
+if (i == 0)
 {
-if (a[i] >= 97 && a[i] <= 122)
+if (n[i] >= 97 && n[i] <= 122)
 {
-a[i] = a[i] - 32;
+n[i] = n[i] - 32;
 continue;
 }
-if (a[i] = ' ')
+if (n[i] == ' ')
 {
 ++i;
-if (a[i] >= 97 && a[i] <= 122)
+if (n[i] >= 97 && n[i] <= 122)
 {
-a[i] = a[i] - 32;
+n[i] = n[i] - 32;
 continue;
 }
 }
 else
 {
-if (a[i] >= 65 && a[i] <= 90)
-a[i] = a[i] + 32
+if (n[i] >= 65 && n[i] <= 90)
+n[i] = n[i] + 32
 }
 }
 return (0);
