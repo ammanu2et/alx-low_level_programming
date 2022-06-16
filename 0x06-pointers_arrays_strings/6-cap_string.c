@@ -1,35 +1,31 @@
-#include "main.h"
-#include <stdio.h>
-#include <string.h>
-/**
- *
- */
-char *cap_string(char *n)
+ #include "main.h"
 
-int i = 0;
-while (a[i] != '\0')
+/**
+ * cap_string - capitalizes all words of a string
+ * @s: input string
+ * Return: always return pointer to dest
+ */
+
+char *cap_string(char *s)
 {
-if (i == 0)
-{
-if (n[i] >= 97 && n[i] <= 122)
-{
-n[i] = n[i] - 32;
-continue;
-}
-if (n[i] == ' ')
-{
-++i;
-if (n[i] >= 97 && n[i] <= 122)
-{
-n[i] = n[i] - 32;
-continue;
-}
-}
-else
-{
-if (n[i] >= 65 && n[i] <= 90)
-n[i] = n[i] + 32
-}
-}
-return (0);
+	int count = 0, a;
+	int sep_words[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
+
+	if (*(s + count) >= 97 && *(s + count) <= 122)
+		*(s + count) = *(s + count) - 32;
+	count++;
+	while (*(s + count) != '\0')
+	{
+		for (a = 0; a < 13; a++)
+		{
+			if (*(s + count) == sep_words[a])
+			{
+				if ((*(s + (count + 1)) >= 97) && (*(s + (count + 1)) <= 122))
+					*(s + (count + 1)) = *(s + (count + 1)) - 32;
+				break;
+			}
+		}
+		count++;
+	}
+	return (s);
 }
