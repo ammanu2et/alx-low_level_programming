@@ -3,6 +3,7 @@
 /**
  * _strncpy - copies one string to te other.
  * @dest: the destination of the copied string.
+ * @n: value of bytes to placed at the destination.
  * @src: the source file of the copied string.
  * Return: dest
  */
