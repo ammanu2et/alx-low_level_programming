@@ -1,22 +1,16 @@
-##include "main.h"
+#include "main.h"
+#include <stdio.h>
 /**
  *
  */
 char *_strcat(char *dest, char *src)
-int i = 0;
 {
-if (i != 0)
+char *p = dest + strlen(dest);
+while (*src != '\0')
 {
-while (*dest != 0)
-{
-dest++;
+*p++ = *src++;
 }
-do{
-if(0 == (*dest = *src++))break;
-dest++;
-}
-while (--n != 0);
-*dest = 0;
-}
+*p = '\0';
+
 return dest;
 }
