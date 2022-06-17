@@ -4,7 +4,6 @@
  *
  */
 char *rot13(char *n)
-int i;
 {
 if (n >= 65 && n <= 90)
 {
