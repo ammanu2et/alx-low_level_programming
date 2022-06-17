@@ -7,13 +7,22 @@
  */
 char *rot13(char *n)
 {
-if (n >= 65 && n <= 90)
+int count = 0, x;
+char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+char rot13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
+
+while (*(n + count) != '\0')
 {
-n = 65 + (n - 65 + 13) % 26)
-}
-else
+for (x = 0; x < 52; x++)
 {
-n = 97 + (n - 97 + 13) % 26)
+if(*(n + count) == alphabet[x])
+{
+*(n + count) = rot13[x];
+break;
 }
+}
+count++;
+}
+
 return (n);
 }
