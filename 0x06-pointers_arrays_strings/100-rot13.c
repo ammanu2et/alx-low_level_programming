@@ -1,7 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *
+ * *rot13 - encodes the letters in string to the 13th letter.
+ * @n: the string to be encoded.
+ * Return: the new value of n.
  */
 char *rot13(char *n)
 {
