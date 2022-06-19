@@ -15,5 +15,4 @@ else
 {
 x = n;
 }
-return (x);
 }
