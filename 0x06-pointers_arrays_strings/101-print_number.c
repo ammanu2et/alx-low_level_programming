@@ -4,9 +4,16 @@
  */
 void print_number(int n)
 {
-int *p;
+int x, y;
 {
-for (n = 0; n != '\0'; n++)
+if (n < 0)
+{
+_putchar(45);
+x = n * -1;
 }
-_putchar (*p + n);
+else
+{
+x = n;
+}
+return (x);
 }
