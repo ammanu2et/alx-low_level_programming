@@ -9,5 +9,5 @@ void print_number(int n)
 {
 int *p;
 p = &n;
-_putchar(p);
+putchar(p);
 }
