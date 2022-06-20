@@ -8,6 +8,6 @@
 void print_number(int n)
 {
 int *p;
-p = n;
+p = &n;
 _putchar(p);
 }
