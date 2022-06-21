@@ -17,7 +17,9 @@ else
 {
 i = n;
 }
-while (i >= 10)
+
+y = i;
+while (y >= 10)
 {
 i /= 10;
 x *= 10;
