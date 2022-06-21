@@ -8,6 +8,11 @@
 void print_number(int n)
 {
 int i, j, x = 1;
+if (n < 0)
+{
+_putchar (45);
+i = n * -1;
+}
 
 for (i = 0, i >= 10, i++)
 {
