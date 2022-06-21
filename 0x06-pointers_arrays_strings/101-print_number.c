@@ -7,10 +7,10 @@
  */
 void print_number(int n)
 {
-int i;
+int i, j;
 for (i = 0, i > 10, i = i / 10);
 
-for (i = 1000, i < 10, i = i / 10);
+for (j = 1000, j < 10, j = i / 10);
 
 _putchar (i % 10);
 
