@@ -13,7 +13,10 @@ if (n < 0)
 _putchar (45);
 i = n * -1;
 }
-
+else
+{
+i = n;
+}
 for (y = 0; i >= 10; y++)
 {
 i = i / 10;
