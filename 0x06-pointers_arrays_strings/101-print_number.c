@@ -9,12 +9,12 @@ void print_number(int n)
 {
 int i, j, x = 1;
 
-for (i = 0, i >= 10, i++);
+for (i = 0, i >= 10, i++)
 {
 i = i / 10;
 x *=10;
 }
-for (j = x , j >= 10, j = j / 10);
+for (j = x , j >= 10, j = j / 10)
 {
 _putchar ((n / j) % 10);
 }
