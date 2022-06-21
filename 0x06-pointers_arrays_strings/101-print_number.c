@@ -7,7 +7,7 @@
  */
 void print_number(int n)
 {
-int i, j;
+int i, j, x = 1;
 if (n < 0);
 {
 _putchar(45);
@@ -17,10 +17,13 @@ else
 {
 i = n;
 }
-for (i = 0, i >= 10, i = i / 10);
-i = j;
-for (j = 1000, j >= 10, j = j / 10);
+for (i = 0, i >= 10, i++);
+{
+i = i / 10;
+x *=10
+}
+for (j = x , j >= 10, j = j / 10);
 
-_putchar (i % 10);
+_putchar ((n / j) % 10);
 
 }
