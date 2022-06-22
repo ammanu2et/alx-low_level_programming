@@ -6,6 +6,7 @@
  */
 
 int factorial(int n)
+int x = -1;
 {
 if (n < 0)
 {
@@ -13,7 +14,7 @@ return (45('1'));
 }
 if (n == 0)
 {
-return ('1');
+return (x);
 }
 else
 {
