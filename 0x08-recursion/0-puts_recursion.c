@@ -11,4 +11,3 @@ return;
 printf("%c", *s);
 _puts_recursion(s + 1);
 }
-printf("\n");
