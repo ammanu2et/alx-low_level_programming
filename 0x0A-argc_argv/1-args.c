@@ -1,5 +1,6 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
+
 /**
  * main - Print the name of the program
  * @argc: Count arguments
@@ -9,15 +10,8 @@
 
 int main(int argc, char *argv[])
 {
-int i = 0;
+(void) argv;
+printf("%i\n", argc - 1);
 
-if (argc > 0)
-{
-while (i < argc)
-{
-printf("%s\n", argv[i]);
-i++;
-}
-}
 return (0);
 }
