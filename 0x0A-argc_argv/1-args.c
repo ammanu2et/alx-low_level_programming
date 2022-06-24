@@ -15,7 +15,7 @@ if (argc > 0)
 {
 while (count < argc)
 {
-printf("%s\n", argv[count]);
+printf("%d\n", argv[count]);
 count++;
 }
 }
