@@ -13,7 +13,7 @@ int count;
 	for (count = 0; count < argc; count++)
 	{
 		if (argc == 1)
-			_putchar("%s\n", argv[count]);
+			printf("%s\n", argv[count]);
 		else
 			break;
 	}
