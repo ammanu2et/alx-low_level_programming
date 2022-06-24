@@ -4,19 +4,19 @@
  * main - Print the name of the program
  * @argc: Count arguments
  * @argv: Arguments
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
 
 int main(int argc, char *argv[])
 {
-int count = 0;
+int i = 0;
 
 if (argc > 0)
 {
-while (count < argc)
+while (i < argc)
 {
-printf("%d\n", argv[count]);
-count++;
+printf("%d\n", argv[i]);
+i++;
 }
 }
 return (0);
