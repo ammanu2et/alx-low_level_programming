@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * first - print a test before main.
+ * first - function executed before main.
  * Return: void
  */
 
