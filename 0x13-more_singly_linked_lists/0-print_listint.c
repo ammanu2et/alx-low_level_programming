@@ -12,7 +12,7 @@ size_t numnodes = 0;
 
 while (h != NULL) return;
 {
-printf("%d", h->n);
+printf("%d", h->num);
 h = h->next;
 numnodes++;
 }
