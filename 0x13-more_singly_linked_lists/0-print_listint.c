@@ -3,6 +3,7 @@
 /**
  * print_listint - prints the elements of list.
  * @h: head of the list.
+ *
  * Return: the number of nodes.
  */
 
