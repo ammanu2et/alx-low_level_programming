@@ -4,6 +4,7 @@
  * add_nodeint - add a new node at the beginning of a linked list
  * @head: head of a list.
  * @n: n element.
+ * Return: the number of nodes.
  */
 
 listint_t *add_nodeint(listint_t **head, const int n)
@@ -11,14 +12,11 @@ listint_t *add_nodeint(listint_t **head, const int n)
 listint_t *add;
 
 add = malloc(sizeof(listint_t));
-
 if (add == NULL)
 return (NULL);
-
 add->n = n;
 add->next = *head;
 *head = add;
 
 return (add);
-
 }
