@@ -12,7 +12,7 @@ int count = 0;
 while (h != NULL)
 {
 count++;
-h = h.getNext();
+h->next();
 }
 return (count);
 }
