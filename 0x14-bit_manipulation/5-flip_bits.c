@@ -14,8 +14,7 @@ unsigned int nbits;
 for (nbits = 0; n || m; n >>= 1, m >>= 1)
 {
 if ((n & 1) != (m & 1))
-nbits++;
+++nbits;
 }
-
-	return (nbits);
+return (nbits);
 }
