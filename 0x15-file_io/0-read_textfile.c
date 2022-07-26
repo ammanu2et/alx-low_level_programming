@@ -28,7 +28,6 @@ return (0);
 
 nrd = read(fd, buf, letters);
 nwr = write(STDOUT_FILENO, buf, nrd);
-
 close(fd);
 
 free(buf);
